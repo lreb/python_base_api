@@ -27,3 +27,7 @@ python3 manage.py test
 # Migrations
 python3 manage.py makemigrations
 python3 manage.py migrate
+
+
+# sources
+https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1
