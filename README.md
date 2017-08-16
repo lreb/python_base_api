@@ -21,3 +21,9 @@
 9- python3 manage.py startapp api
 #
 10-
+
+# Test
+python3 manage.py test
+# Migrations
+python3 manage.py makemigrations
+python3 manage.py migrate
