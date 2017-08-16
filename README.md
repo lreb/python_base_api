@@ -30,10 +30,7 @@ python3 manage.py migrate
 
 
 # sources
-[DjangoProject Tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
-
-
-http://www.django-rest-framework.org/
-http://www.django-rest-framework.org/tutorial/quickstart/
-https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1
-https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2
+[Django Tutorial](https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
+[Django Rest Framework Turorial](http://www.django-rest-framework.org/tutorial/quickstart)
+[Django api rest part 1](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1)
+[Django api rest part 2](https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2)
