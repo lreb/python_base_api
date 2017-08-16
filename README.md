@@ -8,7 +8,7 @@
 3- source venv/bin/activate
 # install django in the environment
 4- pip install Django
-# only iy you have problems with 'pip'
+# only if you have problems with 'pip'
 (optional) if you lack pip - sudo easy_install pip
 # create txt for track installations
 5- touch requirements.txt
