@@ -17,7 +17,7 @@
 7- django-admin startproject djangorest
 # install djangorestframework
 8- pip install djangorestframework
-#
-9-
+# create the rest api, need be sure that you are in your active envioronmet, when you change your terminal
+9- python3 manage.py startapp api
 #
 10-
