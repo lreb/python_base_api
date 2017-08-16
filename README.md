@@ -34,3 +34,4 @@ https://docs.djangoproject.com/en/1.10/intro/tutorial01/
 http://www.django-rest-framework.org/
 http://www.django-rest-framework.org/tutorial/quickstart/
 https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-1
+https://scotch.io/tutorials/build-a-rest-api-with-django-a-test-driven-approach-part-2
