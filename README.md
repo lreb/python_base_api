@@ -10,7 +10,7 @@
 4- pip install Django
 # only iy you have problems with 'pip'
 (optional) if you lack pip - sudo easy_install pip
-# create txt for track insstallations
+# create txt for track installations
 5- touch requirements.txt
 6- pip freeze > requirements.txt
 # create django project
