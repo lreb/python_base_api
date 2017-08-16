@@ -15,3 +15,9 @@
 6- pip freeze > requirements.txt
 # create django project
 7- django-admin startproject djangorest
+# install djangorestframework
+8- pip install djangorestframework
+#
+9-
+#
+10-
