@@ -1,0 +1,20 @@
+config:
+  target: "http://127.0.0.1:5000/api"
+  phases:
+    - duration: 20
+      arrivalRate: 12
+      name: Warm up
+    - duration: 20
+      arrivalRate: 25
+      rampTo: 50
+      name: Ramp up load
+    - duration: 20
+      arrivalRate: 50
+      name: Sustained load
+
+scenarios:
+  - name: "Search all"
+    flow:
+      - get:
+          url: "/v1/resources/books/all"
+      - think: 1

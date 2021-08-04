@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "9d4bcc45-f240-40b6-9847-cd2daa45c73b",
+		"name": "Python",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Flask_API",
+			"item": [
+				{
+					"name": "Demo",
+					"item": [
+						{
+							"name": "api root",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}",
+									"host": [
+										"{{host}}"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get all",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/api/v1/resources/books?id=2",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"resources",
+										"books"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/api/v1/resources/books/all",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"resources",
+										"books",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "DEMO_SQLite",
+					"item": [
+						{
+							"name": "get all",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/api/v1/resources/books/all",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"resources",
+										"books",
+										"all"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get by author",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/api/v1/resources/books?author=Connie+Willis",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"resources",
+										"books"
+									],
+									"query": [
+										{
+											"key": "author",
+											"value": "Connie+Willis"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get by published year",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/api/v1/resources/books?published=1993",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"resources",
+										"books"
+									],
+									"query": [
+										{
+											"key": "published",
+											"value": "1993"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get by published year and author",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}/api/v1/resources/books?author=Connie+Willis&published=1993",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"resources",
+										"books"
+									],
+									"query": [
+										{
+											"key": "author",
+											"value": "Connie+Willis"
+										},
+										{
+											"key": "published",
+											"value": "1993"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
